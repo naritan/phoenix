@@ -1,6 +1,6 @@
 {
   "name": "phoenix",
-  "description": "this add-on modify twitter icon",
+  "description": "Remove children's graffiti",
   "version": "0.0.1",
   "manifest_version": 3,
   "permissions": [
