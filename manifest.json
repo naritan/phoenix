@@ -1,0 +1,22 @@
+{
+  "name": "phoenix",
+  "description": "this add-on modify twitter icon",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "js": [
+        "phoenix.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
