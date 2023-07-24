@@ -16,6 +16,4 @@ const replacePath = () => {
   }
 }
 
-
-
 timer = setInterval(replacePath, 100);
